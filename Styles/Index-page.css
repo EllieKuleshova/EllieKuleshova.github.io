@@ -1,0 +1,41 @@
+﻿body
+{
+    background-color: white;
+    font-family: 'Century Gothic';
+}
+
+.slider-container{
+    position: fixed;
+    right: 0px;
+    width: 100vw;
+    max-width: 1200px;
+    height: 100vh;
+    max-height: 1000px;
+    background-color: gray;
+}
+
+.carousel-item {
+    width: 100vw;
+    max-width: 1200px;
+    height: 100vh;
+    max-height: 1000px;
+}
+    .carousel-item:nth-child(1) {
+        background-image: url(../Photomaterials/Slider/1200px/first-slide.png);
+    }
+    .carousel-item:nth-child(2) {
+        background-image: url(../Photomaterials/Slider/1200px/second-slide.png);
+    }
+    .carousel-item:nth-child(3) {
+        background-image: url(../Photomaterials/Slider/1200px/third-slide.png);
+    }
+
+footer {
+    position: absolute;
+    top: 100vh;
+    z-index: 10000;
+    width: 100%;
+    padding: 10vh 5vw 0vh 5vw;
+    background-color: #ffc808;
+    box-shadow: rgba(33, 42, 50, 0.5) 0px 0px 10px;
+}

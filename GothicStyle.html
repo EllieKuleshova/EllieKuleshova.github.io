@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="Styles/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="Styles/Navbar.css" />
+    <link rel="stylesheet" href="Styles/Blocks.css" />
+    <link rel="stylesheet" href="Styles/Images.css" />
+    <link rel="stylesheet" href="Styles/Image-info.css" />
+    <style>
+        .accordion {
+            width: 100%;
+            height: 450px;
+        }
+            .accordion .column {
+                opacity: 0.5;
+                float: left;
+                width: 25%;
+                height: 100%;
+                margin: 0%;
+                padding: 2%;
+                -moz-transition: all 0.7s ease;
+                -o-transition: all 0.7s ease;
+                -webkit-transition: all 0.7s ease;
+                transition: all 0.7s ease;
+            }
+                .accordion .column.wide {
+                    opacity: 1;
+                    width: 55% !important; /*т.к. скрипт задает всем .column ширину 15%, нужно использовать !important*/
+                }                          /*чтобы ширина колонки, на которую наведен указаталь, изменилась на 55%*/
+                .accordion .column:nth-child(1) {
+                    background-image: url(Photomaterials/MiddleAges/GothicStyle/Other/1.png);
+                }
+                .accordion .column:nth-child(2) {
+                    background-image: url(Photomaterials/MiddleAges/GothicStyle/Other/2.png);
+                    border-left: 30px solid white;
+                }
+                .accordion .column:nth-child(3) {
+                    background-image: url(Photomaterials/MiddleAges/GothicStyle/Other/3.png);
+                    border-left: 30px solid white;
+                }
+                .accordion .column:nth-child(4) {
+                    background-image: url(Photomaterials/MiddleAges/GothicStyle/Other/4.png);
+                    border-left: 30px solid white;
+                }
+    </style>
+
+    <link rel="shortcut icon" href="Styles/favicon.ico" type="image/x-icon" />
+    <title>Готика</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light" style="background-color: #ffc808; width: 100%; padding-left: 3%; position: relative; z-index: 100000;">
+        <div class="navbar-brand">ГОТИКА</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a id="home" class="nav-link" href="index.html" title="Вернуться на главную страницу">НА ГЛАВНУЮ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ДРЕВНИЙ МИР
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="AncientEgypt.html" title="Перейти на страницу">Древний Египет</a>
+                        <a class="dropdown-item" href="AncientGreece.html" title="Перейти на страницу">Древняя Греция</a>
+                        <a class="dropdown-item" href="AncientRome.html" title="Перейти на страницу">Древний Рим</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        СРЕДНЕВЕКОВЬЕ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="RomanStyle.html" title="Перейти на страницу">Романика</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ВОЗРОЖДЕНИЕ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Renaissance.html" title="Перейти на страницу">Возрождение</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        НОВОЕ ВРЕМЯ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Baroque.html" title="Перейти на страницу">Барокко</a>
+                        <a class="dropdown-item" href="Classicicsm.html" title="Перейти на страницу">Классицизм</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="content-block">
+
+        <div class="row align-items-center">
+            <h6>
+                Готический стиль пришел на смену романскому, постепенно вытесняя его. Готика охватывает практически все произведения искусства данного периода,
+                однако же особое место в искусстве готики занимали строения, в частности соборы, величественные и устрашающие, представляющие собой
+                высший образец синтеза архитектуры, скульптуры и живописи.
+            </h6>
+        </div>
+
+        <div class="row align-items-center light">
+            <div class="col-sm-6">
+                <div class="photo-block-2">
+                    <div class="content-item">
+                        <img src="Photomaterials/MiddleAges/GothicStyle/Architecture/1.png" alt="Собор Парижской Богоматери, Париж, Франция" title="Собор Парижской Богоматери" />
+                        <div class="overlay"></div>
+                        <div class="corner-overlay-content">Инф.</div>
+                        <div class="overlay-content">
+                            <h2>
+                                Собор Парижской Богоматери
+                            </h2>
+                            <p>
+                                Париж, Франция
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 infoblock">
+                <h4>
+                    Архитектура
+                </h4>
+                <p>
+                    Готические соборы резко отличались от храмов романского стиля.
+                </p>
+                <p>
+                    Вместительные, легкие, высокие и зрелищно декорированные, они определяли характер всего городского пейзажа,
+                    так как и городские постройки стремились вверх подобно соборам.
+                </p>
+            </div>
+        </div>
+
+        <div class="row align-items-center light">
+            <div class="col-sm-6 infoblock">
+                <p>
+                    Наравне с замками, большое значение имели монастыри и храмы.
+                </p>
+                <p>
+                    Если ранее они представляли собой обитель божества, то в романском стиле они стали вместилищем молящихся.
+                </p>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="photo-block-3">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="content-item">
+                                    <img src="Photomaterials/MiddleAges/GothicStyle/Architecture/2-1.png" alt="Миланский собор, Милан, Италия" title="Миланский собор" />
+                                    <div class="overlay"></div>
+                                    <div class="corner-overlay-content">Инф.</div>
+                                    <div class="overlay-content">
+                                        <h2>
+                                            Миланский собор
+                                        </h2>
+                                        <p>
+                                            Милан, Италия
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Photomaterials/MiddleAges/GothicStyle/Architecture/2-2.png" alt="Миланский собор, Милан, Италия" title="Миланский собор" />
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center dark">
+            <div class="col-sm-6">
+                <div class="photo-block-2">
+                    <div class="content-item">
+                        <img src="Photomaterials/MiddleAges/GothicStyle/Sculpture/1.png" alt="Портал в аббатстве Сен-Дени, Сен-Дени, Франция" title="Портал в аббатстве Сен-Дени" />
+                        <div class="overlay"></div>
+                        <div class="corner-overlay-content">Инф.</div>
+                        <div class="overlay-content">
+                            <h2>
+                                Портал в аббатстве Сен-Дени
+                            </h2>
+                            <p>
+                                Сен-Дени, Франция
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 infoblock">
+                <h4>
+                    Скульптура
+                </h4>
+                <p>
+                    Во времена готической культуры скульптура была призвана украшать храмы и служить несущими частями
+                    сложных архитектурных конструкций, а потому не рассматривалась как самостоятельная ветвь искусства,
+                    а скорее являлась объектом почитания наряду с иконами.
+                </p>
+            </div>
+        </div>
+        <div class="row align-items-center dark">
+            <div class="col-sm-6 infoblock">
+                <p>
+                    В готике от романского стиля отличается и само взаимоотношение скульптуры и архитектуры.
+                </p>
+                <p>
+                    Готическая скульптура не так сильно подчиняется плоскости стены и обрамлению, она куда более самостоятельная.
+                </p>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="photo-block-1">
+                    <div class="content-item">
+                        <img src="Photomaterials/MiddleAges/GothicStyle/Sculpture/2.png" alt="Cобор святых Мауритиуса и Катарины, Магдебург, Германия" title="Cобор святых Мауритиуса и Катарины" />
+                        <div class="overlay"></div>
+                        <div class="corner-overlay-content">Инф.</div>
+                        <div class="overlay-content">
+                            <h2>
+                                Cобор святых Мауритиуса и Катарины
+                            </h2>
+                            <p>
+                                Магдебург, Германия
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center white">
+            <div class="col-sm-6 infoblock">
+                <h4>
+                    Живопись
+                </h4>
+                <p>
+                    Одним из основных направлений живописи в те времена стал витраж, который постепенно вытеснял и заменял романскую 
+                    фресковую живопись.
+                </p>
+            </div>
+
+            <div class="col-sm-6 infoblock">
+                <p>
+                    Цветовая палитра витражей стала гораздо насыщеннее и красочнее, в них стали использовать не только цветное,
+                    но и бесцветное стекло. Наравне с изображениями религиозных сюжетов создавались витражи и на бытовые темы.
+                </p>
+            </div>
+        </div>
+        <div class="row align-items-center white">
+            <div class="accordion">
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--JS-->
+    <script src="Scripts/Navbar.js"></script>
+    <script>
+        $(function() {
+            var $column = $('.column');
+
+            $column.mouseenter(function () {
+                $column.css('width', '15%');
+                $(this).addClass('wide');
+            });
+
+            $column.mouseleave(function () {
+                $column.css('width', '25%');
+                $column.removeClass('wide');
+            });
+        });
+    </script>
+</body>
+</html>
